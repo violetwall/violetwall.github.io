@@ -8,9 +8,15 @@
   <!-- Add your name below -->
   <title>Violet Wall</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body class="main-text-color">
@@ -28,7 +34,7 @@
     </div>
     <!-- Replace the # inside of the href="#" with your links. -->
     <div class="links-container">
-      <div class="button toggle">Blog post</div>
+      <div class="button toggle"><i class="fa-brands fa-medium"></i> Blog post</div>
       <div class="slidedown">
         <div class="description">
           <h2>Gamifying Exercise: How Strava Makes Working Out Fun</h2>
@@ -37,21 +43,45 @@
         </div>
       </div>
 
-      <div class="button toggle">Video</div>
+      <div class="button toggle"><i class="fa-brands fa-youtube"></i> Video</div>
       <div class="slidedown">
         <div class="description">
-          <h2>Video title</h2>
-          <p>Add a short but appealing description of your video.</p>
-          <a href="#" class="external-link" target="_blank">Watch</a>
+          <h2>How to make a matcha latte with a homemade strawberry simple syrup</h2>
+          <p>Quick tutorial to teach you how to make your own strawberry simple syrup and two different ways to make matcha lattes!</p>
+
+          <style>
+            .embed-container {
+              position: relative;
+              padding-bottom: 50%;
+              height: 0;
+              overflow: hidden;
+              max-width: 100%
+            }
+
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container embed {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+           </style>
+          <div class = 'embed-container'>
+            <iframe src="https://www.youtube.com/embed/TAhQMfCIess?si=gmm3x2FKrTDI_2Kp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a href="https://youtu.be/TAhQMfCIess" class="external-link" target="_blank">Watch</a>
         </div>
       </div>
 
-      <div class="button toggle">Podcast</div>
+      <div class="button toggle"><i class="fa-brands fa-soundcloud"></i> Podcast</div>
       <div class="slidedown">
         <div class="description">
           <h2>Podcast: On the TikTok Ban</h2>
           <p>A college group discusses how the US Government banning TikTok impacts American Media, Small Businesses, and Everyday Consumers.</p>
-          <a href="#" class="external-link" target="_blank">Listen</a>
+          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2075897796&color=%23887072&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gwyneth26" title="Gwyneth26" target="_blank" style="color: #cccccc; text-decoration: none;">Gwyneth26</a> · <a href="https://soundcloud.com/gwyneth26/the-effects-of-the-tiktok-ban-through-the-eyes-of-four-college-students" title="The Effects of the TikTok Ban Through the Eyes of Four College Students" target="_blank" style="color: #cccccc; text-decoration: none;">The Effects of the TikTok Ban Through the Eyes of Four College Students</a></div>
+          <a href="https://soundcloud.com/gwyneth26/the-effects-of-the-tiktok-ban-through-the-eyes-of-four-college-students" class="external-link" target="_blank">Listen</a>
         </div>
       </div>
     </div>
@@ -62,8 +92,22 @@
     </div>
 
     <div class="links-container">
-      <a href="https://www.linkedin.com/in/violet-wall/" class="button" target="_blank">LinkedIn</a>
-      <a href="https://www.linkedin.com/in/violet-wall/overlay/1722259279903/single-media-viewer/?profileId=ACoAAD3zzqkBKRzL6_oe2dwwL7EdO7gBnHZ7f7w" class="button" target="_blank">Resume</a>
+      <a href="https://www.linkedin.com/in/violet-wall/" class="button" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+
+      <div class="button toggle"><i class="fa-brands fa-soundcloud"></i>Resume</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Updated end of Spring 2025</h2>
+          <iframe src="assets/Resume04.2025.pdf" width="100%" height="600px">
+            This browser does not support PDFs. Please download the PDF to view it: 
+            <a href="assets/Resume04.2025.pdf">Download PDF</a>.
+        </iframe>
+        
+        </div>
+      </div>
+
+
+      <a href="https://www.linkedin.com/in/violet-wall/overlay/1745935835719/single-media-viewer/?profileId=ACoAAD3zzqkBKRzL6_oe2dwwL7EdO7gBnHZ7f7w" class="button" target="_blank"><i class="fa-solid fa-file"></i> Resume</a>
     </div>
 
   </div>
